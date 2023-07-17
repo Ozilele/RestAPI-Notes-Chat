@@ -1,0 +1,123 @@
+
+
+.note-form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 60vw;
+    /* max-height: 500px; */
+    max-width: 700px;
+    min-width: 280px;
+    transform: translate(-50%, -50%);    
+    background-color: rgb(27, 25, 25);
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+.note-form {
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.note-form-item > input {
+    height: 50px;
+    padding-left: 6px;
+    /* padding: 4px; */
+    border: none;
+    border-bottom: 1px solid rgb(23, 22, 22);
+    font-size: 1.2rem;
+    /* border: none; */
+}
+
+.note-form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+.note-form-item > label {
+    color: darkgray;
+    font-weight: 600;
+}
+
+.note-form-item > textarea {
+    height: 200px;
+    padding: 0.35rem;
+    font-size: 1.05rem;
+    border: none;
+}
+
+.add-note-btn {
+    cursor: pointer;
+    border: none;
+    padding: 0.8rem 0;
+    border-radius: 8px;
+    color: whitesmoke;
+    background-color: #9336B4;
+}
+
+.close_modal_btn {
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    border: none;
+    padding: 0.45rem;
+    background-color: transparent;
+    color: rgb(203, 30, 30);
+}
+
+.dropdown-form-menu {
+    position: relative;
+    width: 50%;
+    border-radius: 6px;
+}
+
+.dropdown-form-menu > label {
+    color: darkgray;
+    font-weight: 600;
+}
+
+.top-category-dropdown {
+    margin-top: 5px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 6px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-of-categories {
+    z-index: 10;
+    border-bottom: 1px solid lightslategray;
+    position: absolute;
+    top: calc(100% + 7px);
+    left: 0;
+    width: 100%;
+    overflow: visible;
+    list-style-type: none;
+    padding: 10px 6px;
+    overflow-y: auto;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.list-of-categories > li {
+    width: 100%;
+    cursor: pointer;
+    padding: 4px;
+    margin-bottom: 8px;
+}
+
+.list-of-categories > li:hover {
+    background-color: blueviolet;
+}
+
+.list-of-categories > li:last-child {
+    margin-bottom: 0;
+}

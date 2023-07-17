@@ -1,0 +1,81 @@
+
+.single-note {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+    width: 100%;
+}
+
+.single-note-content > p {
+    color: #000000;
+    font-size: 1.05rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.note-title {
+    color: rgb(208, 200, 200);
+    margin-bottom: 0.35rem;
+}
+
+.note-date {
+    color: #5f6167;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.single-note-btn {
+    display: flex;
+    align-items: center;
+}
+
+.single-note-btn > button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    padding: 4px;
+    transition: all 230ms ease-in-out;
+}
+
+.single-note-btn > button:hover {
+    background-color: aliceblue;
+}
+
+.edit--btn {
+    margin-right: 4px;
+}
+
+.edit-icon {
+    color: #2F58CD !important;
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.delete-icon {
+    color: #FF6969 !important;
+}
+
+@media screen and (max-width: 670px) {
+    .edit-icon, .delete-icon {
+        width: 22px !important;
+        height: 22px !important;
+    }
+    .note-title {
+        font-size: 1.3rem;
+    }
+    .note-date {
+        font-size: 1.0rem;
+    }
+
+    .single-note-content > p {
+        font-size: 0.95rem;
+    }
+
+    .single-note-content {
+        margin-right: auto;
+    }
+}

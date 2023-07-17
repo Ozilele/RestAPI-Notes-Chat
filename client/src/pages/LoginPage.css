@@ -1,0 +1,47 @@
+
+.login_screen {
+    background-color: rgb(17, 18, 18);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.login_content {
+    height: 23.5rem;
+    background-color: rgb(243, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 6px 19px 0px rgb(139, 141, 160);
+    -moz-box-shadow: 5px 6px 19px 0px rgba(147, 150, 179, 1);
+    box-shadow: 5px 6px 19px 0px rgba(147, 150, 179, 1);
+    padding: 3.75rem;
+}
+
+.login--link {
+    text-decoration: none;
+    outline: none;
+}
+
+.login--btn {
+    cursor: pointer;
+    padding: 1.2rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-size: 1.45rem;
+}
+
+.login--btn > svg {
+    color: orange !important;
+    margin-right: 5px;
+    width: 26px !important;
+    height: 26px !important;
+}

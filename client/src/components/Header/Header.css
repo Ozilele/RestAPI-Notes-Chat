@@ -1,0 +1,58 @@
+
+.notes-header {
+    /* position: fixed;
+    top: 0; */
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.15rem 1.35rem;
+}
+
+.link-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.nav-header {
+    height: 100%;
+}
+
+.header-link {
+    margin-right: 5px;
+    font-size: 1.15rem;
+}
+
+.header-link > a {
+    text-decoration: none;
+    /* color: black; */
+    color: rgb(194, 189, 189) !important;
+}
+
+.header-link > a:hover {
+    color: rgb(194, 189, 189, 0.6) !important;
+}
+
+.link-icon > svg {
+    width: 26px !important;
+    height: 26px !important;
+}
+
+.profile-header {
+    border-radius: 50%;
+}
+
+.notes-header-h1 {
+    color: whitesmoke;
+    font-size: 2.1rem;
+    /* margin-bottom: 1.35rem; */
+    font-style: italic;
+}
+
+.avatar--icon {
+    width: 32px !important;
+    height: 32px !important;
+}

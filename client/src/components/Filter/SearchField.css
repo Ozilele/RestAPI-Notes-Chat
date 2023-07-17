@@ -1,0 +1,46 @@
+
+/* .input-search-field {
+    position: fixed;
+    top: 4.8rem;
+    width: 100%;
+    z-index: 9999;
+} */
+
+.input-field {
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+    height: 4.25rem;
+    width: 50%;
+    margin: 1.55rem auto;
+    max-width: 550px;
+    min-width: 245px;
+    border-radius: 10px;
+}
+
+.search-icon {
+    width: 22px !important;
+    height: 22px !important;
+    color: whitesmoke !important;
+    margin-right: 4px;
+}
+
+.notes-input {
+    background: transparent;
+    border: none;
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+}
+
+.notes-input:focus {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.apply-filters-btn {
+    color: whitesmoke !important;
+}
